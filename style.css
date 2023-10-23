@@ -1,0 +1,70 @@
+:root {
+    /*fonts*/
+
+    --primary-font-family: 'Montserrat', sans-serif;
+    --secondary-font-family: 'Fraunces', serif;
+
+    /*primary colors*/
+
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /*secondary colors*/
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--Cream);
+    font-family: var(--primary-font-family);
+}
+
+img {
+    width: 50%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:1rem;
+}
+
+.container {
+    max-width: 600px;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 4rem;
+    
+}
+
+.card {
+    display: flex;
+    background: var(--White);
+    flex-direction: column;
+    padding: 3rem;
+    border-bottom-right-radius:1rem;
+    border-top-right-radius:1rem ;
+}
+
+.card button {
+    display: flex;
+    align-items: center;
+    background: var(--Dark-cyan);
+    color: var(--White);
+    font-weight: bold;
+    padding: 1.5rem 6rem;
+}
+
+.card img {
+    width: 2rem;
+}
