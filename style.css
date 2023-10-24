@@ -36,7 +36,7 @@ body {
 img {
     width: 50%;
     border-top-left-radius: 1rem;
-    border-bottom-left-radius:1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .container {
@@ -44,7 +44,7 @@ img {
     display: flex;
     border-radius: 0.5rem;
     font-size: 4rem;
-    
+
 }
 
 .card {
@@ -52,8 +52,23 @@ img {
     background: var(--White);
     flex-direction: column;
     padding: 3rem;
-    border-bottom-right-radius:1rem;
-    border-top-right-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.perfume {
+    letter-spacing: 0.5rem;
+    color: var(--Dark-grayish-blue);
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.card h2 {
+    font-size: 3.2rem;
+    font-family: var(--secondary-font-family);
+    line-height: 3rem;
+    color: var(--Very-dark-blue);
+    margin-bottom: 3rem;
 }
 
 .card button {
@@ -65,6 +80,45 @@ img {
     padding: 1.5rem 6rem;
 }
 
+.card p {
+    font-size: 1.5rem;
+    color: var(--Dark-grayish-blue);
+}
+
 .card img {
     width: 2rem;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+
+}
+
+.price-discount {
+    font-size: 1.3rem;
+    margin-right: 4rem;
+    color: var(--Dark-grayish-blue);
+    text-decoration:line-through;
+}
+
+.price {
+    font-size: 3rem;
+    color: var(--Dark-cyan);
+    font-weight: bold;
+    font-family: var(--secondary-font-family);
+}
+.card button{
+    border: none;
+    outline: none;
+    border-radius: 0.6rem;
+    font-size: 1.5rem;
+}
+.card button img{
+    margin-right: 1rem;
+}
+.card button:hover{
+    cursor: pointer;
 }
